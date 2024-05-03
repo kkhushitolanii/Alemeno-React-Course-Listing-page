@@ -1,0 +1,161 @@
+.courseDetails {
+  height: auto;
+  padding: 20px;
+}
+
+.courseDetails h1 {
+  text-align: center;
+}
+
+.courseDetails-details {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.coursePhoto {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.instructorDetails {
+  display: flex;
+  align-items: center;
+}
+
+.instructorName {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.instructorImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.loading {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.loading::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: 4px solid transparent;
+  border-top-color: #000;
+  border-radius: 50%;
+  margin-left: 10px;
+  animation: spin 1s infinite linear;
+}
+
+.syllabus {
+  height: 200px;
+  overflow: hidden;
+}
+
+.expandSyllabus {
+  height: auto !important;
+}
+
+.imgSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imgSection button {
+  width: 100%;
+  background: rgb(50, 171, 50);
+}
+button {
+  color: rgb(255, 253, 253);
+  background-color: #213a8b;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.progressBarContainer {
+  width: 100%;
+  height: 30px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progressBar {
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .courseDetails-details {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

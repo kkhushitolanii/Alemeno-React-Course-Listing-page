@@ -1,0 +1,53 @@
+.courseList .courseContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.courseList .courseContainer img {
+  height: 200px;
+}
+
+.courseList .courseContainer .content img {
+  height: 100px;
+}
+
+.courseList input[type="number"] {
+  width: 300px;
+  height: 30px;
+  margin-left: 20px;
+  font-size: large;
+}
+
+.courseList .heading {
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .courseList .courseContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .courseList .courseContainer img {
+    height: 100px;
+  }
+
+  .content p {
+    font-size: 18px;
+  }
+}
