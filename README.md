@@ -7,7 +7,6 @@ Prerequisites Make sure you have the following installed: Node.js MongoDB
 
 Installation and Setup Clone the repository using the following command:
 
-git clone https://github.com/1806loki/Alemeno.git
 
 Frontend
 
